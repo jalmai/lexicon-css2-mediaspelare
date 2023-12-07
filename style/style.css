@@ -34,6 +34,9 @@
   height: 20%;
   border-bottom: 2px solid gray;
   background-color: rgb(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .album-cover {
   width: 95%;
@@ -52,4 +55,9 @@
   width: 90%;
   border-radius: 10px;
   padding: 10px;
+}
+.small-album {
+  height: 50px;
+  width: 50px;
+  background-color: black;
 }
